@@ -6,7 +6,6 @@
 <title>Karina Moraes - Soluções Digitais</title>
 
 <style>
-/* ---------------- GLOBAL ---------------- */
 body {
     margin: 0;
     padding: 0;
@@ -21,46 +20,14 @@ h1, h2, h3 {
 
 a { text-decoration: none; }
 
-/* -------------- HERO (BANNER) -------------- */
-
+/* BANNER SEM TEXTO */
 .hero {
+    width: 100%;
+    height: 480px;
     background: url('banner.jpg') no-repeat center/cover;
-    padding: 180px 40px;
-    text-align: center;
 }
 
-.hero h1 {
-    font-size: 70px;
-    color: #D9C074;
-    letter-spacing: 3px;
-    text-shadow: 0 0 12px rgba(0,0,0,0.6);
-}
-
-.hero p {
-    font-size: 28px;
-    margin-top: 15px;
-    color: #EDE7DA;
-}
-
-.botao {
-    display: inline-block;
-    margin-top: 40px;
-    background: #D9C074;
-    color: #111111;
-    padding: 18px 42px;
-    border-radius: 40px;
-    font-size: 22px;
-    font-weight: bold;
-    box-shadow: 0 0 12px rgba(217,192,116,0.4);
-    transition: 0.3s;
-}
-
-.botao:hover {
-    background: #e7cf8e;
-}
-
-/* -------------- SESSÕES -------------- */
-
+/* SESSÕES */
 .sessao {
     max-width: 1100px;
     margin: 80px auto;
@@ -80,8 +47,7 @@ a { text-decoration: none; }
     line-height: 1.6;
 }
 
-/* -------------- CARDS DE SERVIÇOS -------------- */
-
+/* CARDS */
 .servicos-container {
     display: flex;
     justify-content: space-between;
@@ -116,8 +82,7 @@ a { text-decoration: none; }
     font-size: 22px;
 }
 
-/* -------------- CTA FINAL -------------- */
-
+/* CTA */
 .cta-final {
     text-align: center;
     margin: 120px 20px;
@@ -131,11 +96,21 @@ a { text-decoration: none; }
 .cta-final p {
     font-size: 24px;
     margin-top: 10px;
-    color: #EDE7DA;
 }
 
-/* -------------- RODAPÉ -------------- */
+/* Botão */
+.botao {
+    display: inline-block;
+    margin-top: 30px;
+    background: #D9C074;
+    color: #111111;
+    padding: 18px 42px;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
 
+/* Rodapé */
 footer {
     text-align: center;
     padding: 40px;
@@ -147,18 +122,14 @@ footer {
 
 <body>
 
-<!-- HERO -->
-<div class="hero">
-    <h1>KARINA MORAES</h1>
-    <p>Transformando ideias em soluções digitais elegantes e eficientes</p>
-    <a class="botao" href="https://wa.me/55SEUDDDNUMERO?text=Oi! Quero um orçamento.">Peça um orçamento</a>
-</div>
+<!-- HERO sem texto -->
+<div class="hero"></div>
 
-<!-- SOBRE -->
+<!-- SOBRE MIM -->
 <div class="sessao">
     <h2>Sobre Mim</h2>
     <p>
-        Sou especialista em soluções digitais, documentação e produtividade.  
+        Sou especialista em soluções digitais, documentação e produtividade.<br>
         Organizo, escrevo e apresento sua ideia de forma clara e bonita —  
         com entregas rápidas e sob medida.
     </p>
@@ -173,46 +144,3 @@ footer {
         <div class="card">
             <h3>Documentação Profissional</h3>
             <ul>
-                <li>Revisão e formatação de PDI</li>
-                <li>Documentos técnicos e funcionais</li>
-                <li>Casos de uso e fluxos</li>
-            </ul>
-            <div class="preco">A partir de R$ 30</div>
-        </div>
-
-        <div class="card">
-            <h3>Planilhas & Dashboards</h3>
-            <ul>
-                <li>Organização completa</li>
-                <li>Relatórios automatizados</li>
-                <li>Google Sheets profissional</li>
-            </ul>
-            <div class="preco">A partir de R$ 50</div>
-        </div>
-
-        <div class="card">
-            <h3>Artes Digitais</h3>
-            <ul>
-                <li>Convites digitais</li>
-                <li>Cartão digital</li>
-                <li>Stories</li>
-            </ul>
-            <div class="preco">A partir de R$ 15</div>
-        </div>
-
-    </div>
-</div>
-
-<!-- CTA FINAL -->
-<div class="cta-final">
-    <h2>Vamos tirar suas ideias do papel com elegância?</h2>
-    <p>Documentação, organização e design que valorizam seu trabalho.</p>
-    <a class="botao" href="https://wa.me/55SEUDDDNUMERO?text=Oi! Quero um orçamento.">Pedir Orçamento</a>
-</div>
-
-<footer>
-    © 2025 Karina Moraes — Todos os direitos reservados
-</footer>
-
-</body>
-</html>
